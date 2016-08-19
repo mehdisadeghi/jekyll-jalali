@@ -13,6 +13,10 @@ gems:
 
 see [https://github.com/aziz/jalalidate](https://github.com/aziz/jalalidate).
 
+#Installation
+
+Simply, put the ``jdate.rb`` into ``_plugins`` directory on your site's root.
+
 #Usage
 ```{{ page.date | jdate: "%A %d %b %Y"}}```
 
