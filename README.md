@@ -8,16 +8,17 @@ This plugin adds a new filter to Jekyll called `jdate`. Using this filter the gi
 
 Append `gem jekyll-jalali` to the `plugins` vector (formerly know as _gems_) of your website's __config.yml_ file. You can also put the _jekyll-jalali.rb_ file inside _plugins_ directory of your website. You can install it from Rubygems too:
 
-```gem install jekyll-jalali```
+    gem install jekyll-jalali
 
 # Usage
 Use it as a _Liquid_ filter inside any Jekyll template:
-`{{ page.date | jdate: "%A %d %b %Y"}}`
+
+    {{ page.date | jdate: "%A %d %b %Y"}}
 
 *jdate* accepts valid formatting parameters according to *jalalidate* Ruby gem.
 
 # Credits
-This plugin uses [`jalalidate`]([https://github.com/aziz/jalalidate](https://github.com/aziz/jalalidate) gem for date conversion.
+This plugin uses [`jalalidate`](https://github.com/aziz/jalalidate) gem for date conversion.
 
 # License
 MIT
