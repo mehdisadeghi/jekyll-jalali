@@ -6,7 +6,7 @@ This plugin adds a new filter to Jekyll called `jdate`. Using this filter the gi
 
 # Installation
 
-Append `gem jekyll-jalali` to the `plugins` vector (formerly know as _gems_) of your website's __config.yml_ file. You can also put the _jekyll-jalali.rb_ file inside _plugins_ directory of your website. You can install it from Rubygems too:
+Append `gem jekyll-jalali` to the `plugins` vector (formerly know as _gems_) of your website's __config.yml_ file. You can also put the _jekyll-jalali.rb_ file inside __plugins_ directory of your website. You can install it from Rubygems too:
 
     gem install jekyll-jalali
 
