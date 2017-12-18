@@ -22,3 +22,14 @@ This plugin uses [`jalalidate`](https://github.com/aziz/jalalidate) gem for date
 
 # License
 MIT
+
+
+<div dir="rtl" lang="fa" style="font-family: initial;">
+
+## در مورد فارسی نویسی
+در هنگام گزارش مشکلات یا شرح تغییرات، فارسی نوشتن خیلی هم خوب است. فقط یک شرط دارد! متن را درون تگ راست به چپ شده بنویسید که درست نمایش داده بشود:
+
+</div>
+
+    <div dir="rtl" lang="fa">مطلب مورد نظر</div>
+
